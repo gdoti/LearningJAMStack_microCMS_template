@@ -34,6 +34,20 @@ module.exports = {
         includePaths: [require("path").resolve(__dirname, "node_modules")],
       },
     },
+    // 「4.1.2gatsby-config.jsの編集」で追加するmicroCMS用の設定
+    {
+      resolve:'gatsby-source-microcms',
+      options:[
+        apiKey:'927b6f84-f2dc-45f0-b15e-d235143f4e1d',
+        serviceId:'isowa',
+        apis:[{
+          endpoint:'information',
+        }],
+}
+//microCMS用の設定ここまで
+]
+
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
