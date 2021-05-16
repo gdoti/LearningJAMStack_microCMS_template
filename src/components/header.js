@@ -13,12 +13,12 @@ const Header = ({ siteTitle }) => (
       <Nav className="mr-auto">
         <NavItem href="/about">
           <Nav.Link as={Link} activeClassName="active" to="/about">
-            会社概要
+            クリニック沿革
           </Nav.Link>
         </NavItem>
         <NavItem href="/about">
           <Nav.Link as={Link} activeClassName="active" to="/jigyo">
-            事業内容
+            診療内容
           </Nav.Link>
         </NavItem>
         <NavItem href="/about">

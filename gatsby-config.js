@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `ヤー・スペーステクノロジー`,
-    description: `【架空の会社】宇宙工学と意識エネルギー循環研究でオンリーワンを目指します`,
-    author: `@atomyah`,
+    title: `いそわクリニック`,
+    description: `常に、個々の患者さんに最適解を提供して行きたい、
+    正しい医療情報をお届けしたい。`,
+    author: `@g.isowa`,
     siteUrl: `https://yah-space.tech`,
   },
   plugins: [
@@ -37,20 +38,15 @@ module.exports = {
     // 「4.1.2gatsby-config.jsの編集」で追加するmicroCMS用の設定
     {
       resolve:'gatsby-source-microcms',
-      options:[
+      options:{   
         apiKey:'927b6f84-f2dc-45f0-b15e-d235143f4e1d',
         serviceId:'isowa',
         apis:[{
           endpoint:'information',
         }],
-}
-//microCMS用の設定ここまで
-]
-
+      },
     }
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+      //microCMS用の設定ここまで
   ],
   pathPrefix: "gatsby-starter-basic-bootstrap",
 };

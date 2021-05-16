@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Row style={{maxWidth:`960px`}}> 
-        <img src={homeImg} style={{width:`100%`,marginBottom:`2rem`}} />
+        <img src={homeImg} style={{width:`100%`,marginBottom:`3rem`}} />
     </Row>
     <Row>
       <Col xs={12} md={6} style={{maxWidth:`480px`}}>
