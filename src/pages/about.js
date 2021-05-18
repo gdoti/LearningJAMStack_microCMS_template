@@ -11,7 +11,7 @@ const AboutPage = () => (
     </Row>
     <Row>
       <Col className="title-obi">
-        <h1 className="h1-font">会社概要</h1>
+        <h1 className="h1-font">いそわクリニック沿革（工事中）</h1>
       </Col>
     </Row>
     <Row>
@@ -22,32 +22,32 @@ const AboutPage = () => (
         <Table striped bordered hover>
           <tbody>
             <tr>
-              <td>社名</td>
-              <td>ヤー・スペーステクノロジー合同会社</td>
+              <td>法人名</td>
+              <td>医療法人いそわクリニック</td>
             </tr>
             <tr>
               <td>本社</td>
-              <td>123 Nirvana St. San Francisco, CA, USA 94103</td>
+              <td>〒572-0062 大阪府寝屋川市高柳栄町9−５</td>
             </tr>
             <tr>
               <td>設立</td>
-              <td>2123年1月2日</td>
+              <td>1996年12月8日</td>
             </tr>
             <tr>
-              <td>資本金</td>
-              <td>$200,000</td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               <td>代表者</td>
-              <td>ヤー アトム</td>
+              <td>磯和剛平</td>
             </tr>
             <tr>
-              <td>従業員</td>
-              <td>33名</td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
-              <td>売上高</td>
-              <td>$4,111,950（2131年12月決算）</td>
+              <td></td>
+              <td></td>
             </tr>
           </tbody>
         </Table>

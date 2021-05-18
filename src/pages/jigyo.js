@@ -25,9 +25,9 @@ const JigyoPage = () => (
             <Card style={{marginTop:`1rem`}}>
               <Card.Img variant="top" src={jigyo1Img} />
               <Card.Body>
-                <Card.Title>軌道上デブリ除去</Card.Title>
+                <Card.Title>一般内科</Card.Title>
                 <Card.Text>
-                    軌道上または航行導線上のデブリを安全除去します。弊社が開発した「次元蒸発粉砕除去法」により、物質空間にデブリの残骸を残しません。
+                    生活習慣病（高血圧症、糖尿病、脂質異常症などいわゆるメタボリック症候群）、肥満、喘息、肺気腫（COPD）、甲状腺機能亢進症、甲状腺機能低下症、骨粗鬆症、ロコモティブ症候群、フレイル、
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -36,9 +36,9 @@ const JigyoPage = () => (
             <Card style={{marginTop:`1rem`}}>
               <Card.Img variant="top" src={jigyo2Img} />
               <Card.Body>
-                <Card.Title>テレポーテーションゲート開設</Card.Title>
+                <Card.Title>消化器内科疾患</Card.Title>
                 <Card.Text>
-                    テレポーテーション用のトンネルゲート開設業務を承ります。管轄当局への手続き全般もすべて弊社にお任せください。
+                    胃がん胃潰瘍十二指腸潰瘍、潰瘍性大腸炎、消化器がん、過敏性腸症候群、ウイルス肝炎、脂肪肝（NASH ,NAFLD),慢性膵炎、膵嚢胞性腫瘍（IPMN）
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -47,9 +47,9 @@ const JigyoPage = () => (
             <Card style={{marginTop:`1rem`}}>
               <Card.Img variant="top" src={jigyo3Img} />
               <Card.Body>
-                <Card.Title>業子力学による量子コントロール</Card.Title>
+                <Card.Title>感染症</Card.Title>
                 <Card.Text>
-                    弊社ラボでは業子力学による量子コントロール実験を科学庁からの委託され、実績をあげております。
+                  　現在、発熱外来開設に向けて取り組んでおります。
                 </Card.Text>
               </Card.Body>
             </Card>
