@@ -15,37 +15,44 @@ const IndexPage = ({data}) => (
         <img src={homeImg} style={{width:`100%`,marginBottom:`2rem`}} />
     </Row>
     <Row>
-      < Col xs={12} md={6} style={{maxWidth:`480px`}}>
+      < Col xs={12} md={8} style={{maxWidth:`480px`}}>
         <Row>
           <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`}}>
-            インフォメーション</Col>
+            <Link to="/information" style={{color:`white`}}>インフォメーション</Link></Col>
         </Row>
         {data.allMicrocmsInformation.edges.map(({node})=>(
           <Row>
             <Col style={{padding:`0.5rem`}}>
               <Link to ={`/information/${node.id}`}>
-                {node.category.category}{``}
+                {node.date}
+                {node.category.category}{`    `}
                 {node.title}
               </Link>
             </Col>
           </Row>
         ))}
       </Col>
-      <Col xs={12} md={6} style={{maxWidth:`480px`}}> 
+      <Col xs={12} md={4} style={{maxWidth:`480px`}}> 
         <Row>
           <Col style={{backgroundColor:`cornflowerblue`,color:`white`, padding:`0.5rem`}}>　</Col>
         </Row>
         <Row>
-          <Col style={{padding:`0.5rem`}}></Col>
-        </Row>
-        <Row>
-          <Col style={{padding:`0.5rem`}}>院長挨拶</Col>
-        </Row>
-        <Row>
           <Col style={{padding:`0.5rem`}}> </Col>
         </Row>
         <Row>
-          <Col style={{padding:`0.5rem`}}> </Col>
+          <Col style={{padding:`0.5rem`}}>
+            <Link to = "/aisatu">
+              院長あいさつ
+            </Link></Col>
+        </Row>
+        <Row>
+          <Col style={{padding:`0.5rem`}}>
+            <Link to = "/osirase">
+              重要なお知らせ
+            </Link> </Col>
+        </Row>
+        <Row>
+          <Col style={{padding:`0.5rem`}}>  </Col>
         </Row>
       </Col>
     </Row>
@@ -97,7 +104,7 @@ query{
       edges{
         node{
           id
-          date
+          date(formatString:"YYYY-MM-DD")
           title
           category{
             category

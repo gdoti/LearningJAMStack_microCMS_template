@@ -26,6 +26,11 @@ const Header = ({ siteTitle }) => (
             インフォメーション
           </Nav.Link>
         </NavItem>
+        <NavItem href="/aisatu">
+          <Nav.Link as={Link} activeClassName="active" to="/aisatu">
+            院長挨拶
+          </Nav.Link>
+        </NavItem>
         <NavItem href="/about">
           <Nav.Link as={Link} activeClassName="active" to="/contact">
             お問い合わせ
