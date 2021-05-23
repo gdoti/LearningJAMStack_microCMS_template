@@ -47,9 +47,20 @@ const JigyoPage = () => (
             <Card style={{marginTop:`1rem`}}>
               <Card.Img variant="top" src={jigyo3Img} />
               <Card.Body>
-                <Card.Title>感染症</Card.Title>
+                <Card.Title>オンライン診療</Card.Title>
                 <Card.Text>
-                  　現在、発熱外来開設に向けて取り組んでおります。
+                  　オンライン診療の拡充に取り組んでおります。
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={6}>
+            <Card style={{marginTop:`1rem`}}>
+              <Card.Img variant="top" src={jigyo3Img} />
+              <Card.Body>
+                <Card.Title>オンライン診療</Card.Title>
+                <Card.Text>
+                  　オンライン診療の拡充に取り組んでおります。
                 </Card.Text>
               </Card.Body>
             </Card>
