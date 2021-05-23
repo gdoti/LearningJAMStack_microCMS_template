@@ -57,7 +57,7 @@ const IndexPage = ({data}) => (
       </Col>
     </Row>
     <Row>
-      <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`,maxWidth:`960px`,marginTop:`2rem`}}>事業内容</Col>
+      <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`,maxWidth:`960px`,marginTop:`2rem`}}>診療内容</Col>
     </Row>
     <Row>
       <Col style={{maxWidth:`960px`}}>
@@ -74,7 +74,7 @@ const IndexPage = ({data}) => (
             <Card style={{marginTop:`1rem`}}>
               <Card.Img variant="top" src={jigyo2Img} alt={`テレポーテーションゲート開設`} />
               <Card.Body>
-                <Card.Title style={{fontSize:`1rem`}}>消化器内科</Card.Title>
+                <Card.Title style={{fontSize:`1rem`}}>生活習慣病</Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -82,7 +82,7 @@ const IndexPage = ({data}) => (
             <Card style={{marginTop:`1rem`}}>
               <Card.Img variant="top" src={jigyo3Img} alt={`業子力学による量子コントロール`} />
               <Card.Body>
-                <Card.Title style={{fontSize:`1rem`}}>感染症</Card.Title>
+                <Card.Title style={{fontSize:`1rem`}}>オンライン診療</Card.Title>
               </Card.Body>
             </Card>
           </Col>
