@@ -36,20 +36,20 @@ const AboutPage = () => (
               <td>◯</td>
               <td>◯</td>
               <td>◯</td>
-              <td>✖️</td>
+              <td><span>✖️</span></td>
               <td>◯</td>
               <td>◯</td>
-              <td>✖️</td>
+              <td><span>✖️</span></td>
             </tr>
             <tr>
               <td>17:00-19:30</td>
               <td>◯</td>
               <td>◯</td>
               <td>◯ </td>
-              <td>✖️</td>
+              <td><span>✖️</span></td>
               <td>◯ </td>
-              <td>✖️</td>
-              <td>✖️</td>
+              <td><span>✖️</span></td>
+              <td><span>✖️</span></td>
             </tr>
           </tbody>
         </Table>

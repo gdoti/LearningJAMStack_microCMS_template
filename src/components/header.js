@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
         
         <NavItem href="/about">
           <Nav.Link as={Link} activeClassName="active" to="/about">
-            クリニック沿革
+            アクセス
           </Nav.Link>
         </NavItem>
         
@@ -43,11 +43,11 @@ const Header = ({ siteTitle }) => (
           </Nav.Link>
         </NavItem>
 
-        <NavItem href="/about">
+        {/* <NavItem href="/about">
           <Nav.Link as={Link} activeClassName="active" to="/contact">
-            アクセス・お問い合わせ
+            お問い合わせ
           </Nav.Link>
-        </NavItem>
+        </NavItem> */}
 
       </Nav>
     </Navbar.Collapse>
