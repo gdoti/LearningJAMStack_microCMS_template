@@ -5,7 +5,7 @@ import SEO from "../components/seo";
 import jigyo1Img from "../images/jigyo1.jpg"
 import jigyo2Img from "../images/jigyo2.jpg"
 import jigyo3Img from "../images/jigyo3.jpg"
-
+import jigyo4Img from "../images/jigyo4.jpg"
 const JigyoPage = () => (
   <Layout>
     <SEO title="診療内容" />
@@ -27,7 +27,7 @@ const JigyoPage = () => (
               <Card.Body>
                 <Card.Title>一般内科</Card.Title>
                 <Card.Text>
-                    生活習慣病（高血圧症、糖尿病、脂質異常症などいわゆるメタボリック症候群）、肥満、喘息、肺気腫（COPD）、甲状腺機能亢進症、甲状腺機能低下症、骨粗鬆症、ロコモティブ症候群、フレイル、
+                    感染症、喘息、肺気腫（COPD）、甲状腺機能亢進症、甲状腺機能低下症、骨粗鬆症、ロコモティブ症候群、フレイル、
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -36,20 +36,19 @@ const JigyoPage = () => (
             <Card style={{marginTop:`1rem`}}>
               <Card.Img variant="top" src={jigyo2Img} />
               <Card.Body>
-                <Card.Title>消化器内科疾患</Card.Title>
-                <Card.Text>
-                    胃がん胃潰瘍十二指腸潰瘍、潰瘍性大腸炎、消化器がん、過敏性腸症候群、ウイルス肝炎、脂肪肝（NASH ,NAFLD),慢性膵炎、膵嚢胞性腫瘍（IPMN）
+                <Card.Title>生活習慣病</Card.Title>
+                <Card.Text>いわゆるメタボリック症候群（高血圧症、糖尿病、脂質異常症など）、肥満、喘息、肺気腫（COPD）、甲状腺機能亢進症、甲状腺機能低下症、骨粗鬆症、ロコモティブ症候群、フレイル、
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col xs={12} md={6}>
             <Card style={{marginTop:`1rem`}}>
-              <Card.Img variant="top" src={jigyo3Img} />
+              <Card.Img variant="top" src={jigyo4Img} />
               <Card.Body>
-                <Card.Title>オンライン診療</Card.Title>
+                <Card.Title>消化器内科疾患</Card.Title>
                 <Card.Text>
-                  　オンライン診療の拡充に取り組んでおります。
+                    胃がん、胃潰瘍、十二指腸潰瘍、潰瘍性大腸炎、消化器がん、過敏性腸症候群、ウイルス肝炎、脂肪肝（NASH ,NAFLD),慢性膵炎、膵嚢胞性腫瘍（IPMN）
                 </Card.Text>
               </Card.Body>
             </Card>
